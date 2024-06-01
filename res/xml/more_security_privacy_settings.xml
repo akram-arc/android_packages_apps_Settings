@@ -244,4 +244,12 @@
         android:title="@string/hide_screen_capture_status_title"
         android:summary="@string/hide_screen_capture_status_summary"
         android:defaultValue="false"/>
+
+    <lineageos.preference.GlobalSettingSwitchPreference
+        android:order="94"
+        android:key="no_storage_restrict"
+        android:title="@string/no_storage_restrict_title"
+        android:summary="@string/no_storage_restrict_summary"
+        android:defaultValue="false"/>
+
 </PreferenceScreen>

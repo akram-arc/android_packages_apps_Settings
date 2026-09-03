@@ -238,5 +238,10 @@
         android:summary="@string/ignore_window_secure_summary"
         android:defaultValue="false"/>
 
-
+    <lineageos.preference.GlobalSettingSwitchPreference
+        android:order="93"
+        android:key="hide_screen_capture_status"
+        android:title="@string/hide_screen_capture_status_title"
+        android:summary="@string/hide_screen_capture_status_summary"
+        android:defaultValue="false"/>
 </PreferenceScreen>

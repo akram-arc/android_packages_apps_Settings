@@ -53,6 +53,12 @@
             android:title="@string/user_add_on_lockscreen_menu"
             settings:controller="com.android.settings.users.AddUserWhenLockedPreferenceController" />
 
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="enable_lockscreen_quick_settings"
+            android:title="@string/lockscreen_quick_settings_title"
+            android:summary="@string/lockscreen_quick_settings_summary"
+            android:defaultValue="true" />
+
         <com.android.settingslib.RestrictedPreference
             android:key="owner_info_settings"
             android:title="@string/owner_info_settings_title"

@@ -120,7 +120,7 @@
         android:key="lock_settings_footer"
         settings:searchable="false"/>
 
-        <lineageos.preference.LineageSecureSettingSwitchPreference
+        <lineageos.preference.SecureSettingSwitchPreference 
             android:key="lockscreen_enable_power_menu"
             android:title="@string/lockscreen_enable_power_menu_title"
             android:summary="@string/lockscreen_enable_power_menu_summary"
